@@ -28,8 +28,8 @@
                                         num2.focus();
                                         return;
                                     }
-                                    let res=parseFloat(num1.value)+parseFloat(num2.value);
-                                    let ans = "res of addn" + res.toFixed(2);
+                                    let res=parseFloat(num1.value )+ parseFloat(num2.value);
+                                    let ans = "res of addn " + res.toFixed(2);
                                     msg.innerHTML=ans;
 
                                   }
@@ -37,15 +37,15 @@
          </head>
          <body>
          <center>
-                <h1>Addn app</h1>
+                <h1>Addn App</h1>
                 <form onsubmit="find()">
                 <input type="number"step="any" placeholder="enter first number" id="num1"/>
-                <br/<<br/>
+                <br/><br/>
                 <input type="number"step="any" placeholder="enter second number" id="num2"/>
-                 <br/<<br/>
+                <br/><br/>
                 <input type ="submit" value ="Add"/>
-               </form>
-               <h1 id="msg></h1>
+                </form>
+               <h1 id="msg"></h1>
           </center>
           </body>
-</html>                            
+</html>
